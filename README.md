@@ -2,7 +2,7 @@ You have been given the code of a purely frontend TODO app
 You have to fill in the following functions - 
  - addTodoToDom
  - removeTodoFromDom
- - updateTodoInDom
+ - updateTodoInDom function
  - updateState function
 
 These functions comprise of what it means to create the library like React.
