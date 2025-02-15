@@ -1,6 +1,6 @@
 You have been given the code of a purely frontend TODO app
 You have to fill in the following functions - 
- - addTodoToDom
+ - addTodoToDom function
  - removeTodoFromDom function
  - updateTodoInDom function
  - updateState function
