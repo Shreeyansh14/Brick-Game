@@ -10,7 +10,7 @@ The goal is following -
 1. Any time the updateState function is called with new state, the updateState function calculates the diff between newTodos and oldTodos and call `addTodoToDom`, `removeTodoFromDom` or `updateState` based on the calculated diff.
 2. They id of a todo uniquely identifies it. If the title of a todo with the same id changes in two iterations, updateTodoInDom should be called for it.
 3. The structure of the state variable looks something like this - 
-```js
+```jscode
     const todos = [{
         title: "Go to gym",
         description: "Go to gym from 7-8PM",
