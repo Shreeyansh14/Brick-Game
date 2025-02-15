@@ -3,7 +3,7 @@ You have to fill in the following functions -
  - addTodoToDom
  - removeTodoFromDom
  - updateTodoInDom
- - updateState
+ - updateState function
 
 These functions comprise of what it means to create the library like React.
 The goal is following - 
