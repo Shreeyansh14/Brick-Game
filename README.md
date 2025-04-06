@@ -1,4 +1,4 @@
-# 🧱 Brick Game (Java)
+# 🧱 Breakout Ball Game (Java)
 
 Welcome to the Brick Game! This is a classic arcade game developed in Java where the objective is to break all the bricks using a ball while preventing it from falling off the screen.
 
