@@ -1,19 +1,20 @@
-You have been given the code of a purely frontend TODO app
-You have to fill in the following functions - 
- - addTodoToDom function
- - removeTodoFromDom function
- - updateTodoInDom function
- - updateState function
+# 🧱 Brick Game (Java)
 
-These functions comprise of what it means to create the library like React.
-The goal is following - 
-1. Any time the updateState function is called with new state, the updateState function calculates the diff between newTodos and oldTodos and call `addTodoToDom`, `removeTodoFromDom` or `updateState` based on the calculated diff.
-2. They id of a todo uniquely identifies it. If the title of a todo with the same id changes in two iterations, updateTodoInDom should be called for it.
-3. The structure of the state variable looks something like this - 
-```jscode
-    const todos = [{
-        title: "Go to gym",
-        description: "Go to gym from 7-8PM",
-        id: 1
-    }]
-```
+Welcome to the Brick Game! This is a classic arcade game developed in Java where the objective is to break all the bricks using a ball while preventing it from falling off the screen.
+
+## 🛠️ Built With
+
+- **Java**: Core programming language used for game logic and GUI.
+- **Swing/AWT**: Java libraries for creating the graphical user interface.
+
+## 🚀 Features
+
+- **Responsive Controls**: Move the paddle using keyboard inputs to keep the ball in play.
+- **Brick Breaking Mechanics**: Destroy bricks by bouncing the ball off the paddle.
+- **Game Over Detection**: The game ends when the ball falls below the paddle.
+
+## 🎮 How to Play
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Shreeyansh14/Brick-Game.git
